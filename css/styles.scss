@@ -51,7 +51,7 @@ body{
     border-bottom: 1px solid $lt-gray;
     padding: 10px;
 }
-.carousel-slider {
+.carousel-inner {
     background:$background-dark;
 
     .carousel-item {
@@ -66,8 +66,23 @@ body{
 }
 
 #carouselButton {
-    right:0px;
+    right:15px;
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal-header {
+    background: $background-dark;
+
+    .modal-title {
+        color:$lt-gray ;
+    }
+    .close {
+        color: $lt-gray;
+    }
+}
+
+.modal-body {
+    background: $background-pale;
 }

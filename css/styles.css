@@ -37,18 +37,28 @@ body {
   border-bottom: 1px solid #ddd;
   padding: 10px; }
 
-.carousel-slider {
+.carousel-inner {
   background: #512DA8; }
-  .carousel-slider .carousel-item {
+  .carousel-inner .carousel-item {
     height: 300px; }
-    .carousel-slider .carousel-item img {
+    .carousel-inner .carousel-item img {
       position: absolute;
       top: 0;
       left: 0;
       min-height: 300px; }
 
 #carouselButton {
-  right: 0px;
+  right: 15px;
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header {
+  background: #512DA8; }
+  .modal-header .modal-title {
+    color: #ddd; }
+  .modal-header .close {
+    color: #ddd; }
+
+.modal-body {
+  background: #D1C4E9; }
